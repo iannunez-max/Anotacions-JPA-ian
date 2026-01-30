@@ -10,7 +10,7 @@ import es.ilerna.M0486.ra3.pt22.pt3.anotacions.Person;
 import es.ilerna.M0486.ra3.pt22.pt3.anotacions.Student;
 
 public class Main {
-
+//test
 	public static void main(String[] args) {
 	
 		Session session = null;
