@@ -8,17 +8,18 @@
 		
 		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 		<property name="hibernate.connection.url">
-			jdbc:mysql://localhost:3306/crudoperacions?useSSL=false&amp;serverTimezone=UTC
+			jdbc:mysql://localhost:3306/crud?useSSL=false&amp;serverTimezone=UTC
 		</property>
 		<property name="hibernate.connection.username">root</property>
-		<property name="hibernate.connection.password">Iannumi240806@</property>
+		<property name="hibernate.connection.password">123456</property>
 		
 		<property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
 		
 		<property name="hibernate.show_sql">true</property>
 		<property name="hibernate.format_sql">true</property>
 		
-		<property name="hibernate.hbm2ddl.auto">create-drop</property>
+		<property name="hibernate.hbm2ddl.auto">update</property>
+
 		
 	</session-factory>
 </hibernate-configuration>
